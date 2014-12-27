@@ -1,4 +1,4 @@
-package material_design_colors;
+package net.vizbits.materialdesigncolors;
 
 /**
  * http://www.google.com/design/spec/style/color.html#color-color-palette
