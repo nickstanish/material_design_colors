@@ -1,0 +1,305 @@
+package material_design_colors;
+
+/**
+ * http://www.google.com/design/spec/style/color.html#color-color-palette
+ */
+
+public class MaterialColor {
+
+  public static final String RED_50 = "#FFEBEE";
+  public static final String RED_100 = "#FFCDD2";
+  public static final String RED_200 = "#EF9A9A";
+  public static final String RED_300 = "#E57373";
+  public static final String RED_400 = "#EF5350";
+  public static final String RED_500 = "#F44336";
+  public static final String RED_600 = "#E53935";
+  public static final String RED_700 = "#D32F2F";
+  public static final String RED_800 = "#C62828";
+  public static final String RED_900 = "#B71C1C";
+  public static final String RED_A100 = "#FF8A80";
+  public static final String RED_A200 = "#FF5252";
+  public static final String RED_A400 = "#FF1744";
+  public static final String RED_A700 = "#D50000";
+  public static final String RED = RED_500;
+
+  public static final String PINK_50 = "#FCE4EC";
+  public static final String PINK_100 = "#F8BBD0";
+  public static final String PINK_200 = "#F48FB1";
+  public static final String PINK_300 = "#F06292";
+  public static final String PINK_400 = "#EC407A";
+  public static final String PINK_500 = "#E91E63";
+  public static final String PINK_600 = "#D81B60";
+  public static final String PINK_700 = "#C2185B";
+  public static final String PINK_800 = "#AD1457";
+  public static final String PINK_900 = "#880E4F";
+  public static final String PINK_A100 = "#FF80AB";
+  public static final String PINK_A200 = "#FF4081";
+  public static final String PINK_A400 = "#F50057";
+  public static final String PINK_A700 = "#C51162";
+  public static final String PINK = PINK_500;
+
+  public static final String PURPLE_50 = "#F3E5F5";
+  public static final String PURPLE_100 = "#E1BEE7";
+  public static final String PURPLE_200 = "#CE93D8";
+  public static final String PURPLE_300 = "#BA68C8";
+  public static final String PURPLE_400 = "#AB47BC";
+  public static final String PURPLE_500 = "#9C27B0";
+  public static final String PURPLE_600 = "#8E24AA";
+  public static final String PURPLE_700 = "#7B1FA2";
+  public static final String PURPLE_800 = "#6A1B9A";
+  public static final String PURPLE_900 = "#4A148C";
+  public static final String PURPLE_A100 = "#EA80FC";
+  public static final String PURPLE_A200 = "#E040FB";
+  public static final String PURPLE_A400 = "#D500F9";
+  public static final String PURPLE_A700 = "#AA00FF";
+  public static final String PURPLE = PURPLE_500;
+
+
+  public static final String DEEP_PURPLE_50 = "#EDE7F6";
+  public static final String DEEP_PURPLE_100 = "#D1C4E9";
+  public static final String DEEP_PURPLE_200 = "#B39DDB";
+  public static final String DEEP_PURPLE_300 = "#9575CD";
+  public static final String DEEP_PURPLE_400 = "#7E57C2";
+  public static final String DEEP_PURPLE_500 = "#673AB7";
+  public static final String DEEP_PURPLE_600 = "#5E35B1";
+  public static final String DEEP_PURPLE_700 = "#512DA8";
+  public static final String DEEP_PURPLE_800 = "#4527A0";
+  public static final String DEEP_PURPLE_900 = "#311B92";
+  public static final String DEEP_PURPLE_A100 = "#B388FF";
+  public static final String DEEP_PURPLE_A200 = "#7C4DFF";
+  public static final String DEEP_PURPLE_A400 = "#651FFF";
+  public static final String DEEP_PURPLE_A700 = "#6200EA";
+  public static final String DEEP_PURPLE = DEEP_PURPLE_500;
+
+  public static final String INDIGO_50 = "#E8EAF6";
+  public static final String INDIGO_100 = "#C5CAE9";
+  public static final String INDIGO_200 = "#9FA8DA";
+  public static final String INDIGO_300 = "#7986CB";
+  public static final String INDIGO_400 = "#5C6BC0";
+  public static final String INDIGO_500 = "#3F51B5";
+  public static final String INDIGO_600 = "#3949AB";
+  public static final String INDIGO_700 = "#303F9F";
+  public static final String INDIGO_800 = "#283593";
+  public static final String INDIGO_900 = "#1A237E";
+  public static final String INDIGO_A100 = "#8C9EFF";
+  public static final String INDIGO_A200 = "#536DFE";
+  public static final String INDIGO_A400 = "#3D5AFE";
+  public static final String INDIGO_A700 = "#304FFE";
+  public static final String INDIGO = INDIGO_500;
+
+  public static final String BLUE_50 = "#E3F2FD";
+  public static final String BLUE_100 = "#BBDEFB";
+  public static final String BLUE_200 = "#90CAF9";
+  public static final String BLUE_300 = "#64B5F6";
+  public static final String BLUE_400 = "#42A5F5";
+  public static final String BLUE_500 = "#2196F3";
+  public static final String BLUE_600 = "#1E88E5";
+  public static final String BLUE_700 = "#1976D2";
+  public static final String BLUE_800 = "#1565C0";
+  public static final String BLUE_900 = "#0D47A1";
+  public static final String BLUE_A100 = "#82B1FF";
+  public static final String BLUE_A200 = "#448AFF";
+  public static final String BLUE_A400 = "#2979FF";
+  public static final String BLUE_A700 = "#2962FF";
+  public static final String BLUE = BLUE_500;
+
+  public static final String LIGHT_BLUE_50 = "#E1F5FE";
+  public static final String LIGHT_BLUE_100 = "#B3E5FC";
+  public static final String LIGHT_BLUE_200 = "#81D4FA";
+  public static final String LIGHT_BLUE_300 = "#4FC3F7";
+  public static final String LIGHT_BLUE_400 = "#29B6F6";
+  public static final String LIGHT_BLUE_500 = "#03A9F4";
+  public static final String LIGHT_BLUE_600 = "#039BE5";
+  public static final String LIGHT_BLUE_700 = "#0288D1";
+  public static final String LIGHT_BLUE_800 = "#0277BD";
+  public static final String LIGHT_BLUE_900 = "#01579B";
+  public static final String LIGHT_BLUE_A100 = "#80D8FF";
+  public static final String LIGHT_BLUE_A200 = "#40C4FF";
+  public static final String LIGHT_BLUE_A400 = "#00B0FF";
+  public static final String LIGHT_BLUE_A700 = "#0091EA";
+  public static final String LIGHT_BLUE = LIGHT_BLUE_500;
+
+  public static final String CYAN_50 = "#E0F7FA";
+  public static final String CYAN_100 = "#B2EBF2";
+  public static final String CYAN_200 = "#80DEEA";
+  public static final String CYAN_300 = "#4DD0E1";
+  public static final String CYAN_400 = "#26C6DA";
+  public static final String CYAN_500 = "#00BCD4";
+  public static final String CYAN_600 = "#00ACC1";
+  public static final String CYAN_700 = "#0097A7";
+  public static final String CYAN_800 = "#00838F";
+  public static final String CYAN_900 = "#006064";
+  public static final String CYAN_A100 = "#84FFFF";
+  public static final String CYAN_A200 = "#18FFFF";
+  public static final String CYAN_A400 = "#00E5FF";
+  public static final String CYAN_A700 = "#00B8D4";
+  public static final String CYAN = CYAN_500;
+
+  public static final String TEAL_50 = "#E0F2F1";
+  public static final String TEAL_100 = "#B2DFDB";
+  public static final String TEAL_200 = "#80CBC4";
+  public static final String TEAL_300 = "#4DB6AC";
+  public static final String TEAL_400 = "#26A69A";
+  public static final String TEAL_500 = "#009688";
+  public static final String TEAL_600 = "#00897B";
+  public static final String TEAL_700 = "#00796B";
+  public static final String TEAL_800 = "#00695C";
+  public static final String TEAL_900 = "#004D40";
+  public static final String TEAL_A100 = "#A7FFEB";
+  public static final String TEAL_A200 = "#64FFDA";
+  public static final String TEAL_A400 = "#1DE9B6";
+  public static final String TEAL_A700 = "#00BFA5";
+  public static final String TEAL = TEAL_500;
+
+  public static final String GREEN_50 = "#E8F5E9";
+  public static final String GREEN_100 = "#C8E6C9";
+  public static final String GREEN_200 = "#A5D6A7";
+  public static final String GREEN_300 = "#81C784";
+  public static final String GREEN_400 = "#66BB6A";
+  public static final String GREEN_500 = "#4CAF50";
+  public static final String GREEN_600 = "#43A047";
+  public static final String GREEN_700 = "#388E3C";
+  public static final String GREEN_800 = "#2E7D32";
+  public static final String GREEN_900 = "#1B5E20";
+  public static final String GREEN_A100 = "#B9F6CA";
+  public static final String GREEN_A200 = "#69F0AE";
+  public static final String GREEN_A400 = "#00E676";
+  public static final String GREEN_A700 = "#00C853";
+  public static final String GREEN = GREEN_500;
+
+  public static final String LIGHT_GREEN_50 = "#F1F8E9";
+  public static final String LIGHT_GREEN_100 = "#DCEDC8";
+  public static final String LIGHT_GREEN_200 = "#C5E1A5";
+  public static final String LIGHT_GREEN_300 = "#AED581";
+  public static final String LIGHT_GREEN_400 = "#9CCC65";
+  public static final String LIGHT_GREEN_500 = "#8BC34A";
+  public static final String LIGHT_GREEN_600 = "#7CB342";
+  public static final String LIGHT_GREEN_700 = "#689F38";
+  public static final String LIGHT_GREEN_800 = "#558B2F";
+  public static final String LIGHT_GREEN_900 = "#33691E";
+  public static final String LIGHT_GREEN_A100 = "#CCFF90";
+  public static final String LIGHT_GREEN_A200 = "#B2FF59";
+  public static final String LIGHT_GREEN_A400 = "#76FF03";
+  public static final String LIGHT_GREEN_A700 = "#64DD17";
+  public static final String LIGHT_GREEN = LIGHT_GREEN_500;
+
+  public static final String LIME_50 = "#F9FBE7";
+  public static final String LIME_100 = "#F0F4C3";
+  public static final String LIME_200 = "#E6EE9C";
+  public static final String LIME_300 = "#DCE775";
+  public static final String LIME_400 = "#D4E157";
+  public static final String LIME_500 = "#CDDC39";
+  public static final String LIME_600 = "#C0CA33";
+  public static final String LIME_700 = "#AFB42B";
+  public static final String LIME_800 = "#9E9D24";
+  public static final String LIME_900 = "#827717";
+  public static final String LIME_A100 = "#F4FF81";
+  public static final String LIME_A200 = "#EEFF41";
+  public static final String LIME_A400 = "#C6FF00";
+  public static final String LIME_A700 = "#AEEA00";
+  public static final String LIME = LIME_500;
+
+  public static final String YELLOW_50 = "#FFFDE7";
+  public static final String YELLOW_100 = "#FFF9C4";
+  public static final String YELLOW_200 = "#FFF59D";
+  public static final String YELLOW_300 = "#FFF176";
+  public static final String YELLOW_400 = "#FFEE58";
+  public static final String YELLOW_500 = "#FFEB3B";
+  public static final String YELLOW_600 = "#FDD835";
+  public static final String YELLOW_700 = "#FBC02D";
+  public static final String YELLOW_800 = "#F9A825";
+  public static final String YELLOW_900 = "#F57F17";
+  public static final String YELLOW_A100 = "#FFFF8D";
+  public static final String YELLOW_A200 = "#FFFF00";
+  public static final String YELLOW_A400 = "#FFEA00";
+  public static final String YELLOW_A700 = "#FFD600";
+  public static final String YELLOW = YELLOW_500;
+
+  public static final String AMBER_50 = "#FFF8E1";
+  public static final String AMBER_100 = "#FFECB3";
+  public static final String AMBER_200 = "#FFE082";
+  public static final String AMBER_300 = "#FFD54F";
+  public static final String AMBER_400 = "#FFCA28";
+  public static final String AMBER_500 = "#FFC107";
+  public static final String AMBER_600 = "#FFB300";
+  public static final String AMBER_700 = "#FFA000";
+  public static final String AMBER_800 = "#FF8F00";
+  public static final String AMBER_900 = "#FF6F00";
+  public static final String AMBER_A100 = "#FFE57F";
+  public static final String AMBER_A200 = "#FFD740";
+  public static final String AMBER_A400 = "#FFC400";
+  public static final String AMBER_A700 = "#FFAB00";
+  public static final String AMBER = AMBER_500;
+
+  public static final String ORANGE_50 = "#FFF3E0";
+  public static final String ORANGE_100 = "#FFE0B2";
+  public static final String ORANGE_200 = "#FFCC80";
+  public static final String ORANGE_300 = "#FFB74D";
+  public static final String ORANGE_400 = "#FFA726";
+  public static final String ORANGE_500 = "#FF9800";
+  public static final String ORANGE_600 = "#FB8C00";
+  public static final String ORANGE_700 = "#F57C00";
+  public static final String ORANGE_800 = "#EF6C00";
+  public static final String ORANGE_900 = "#E65100";
+  public static final String ORANGE_A100 = "#FFD180";
+  public static final String ORANGE_A200 = "#FFAB40";
+  public static final String ORANGE_A400 = "#FF9100";
+  public static final String ORANGE_A700 = "#FF6D00";
+  public static final String ORANGE = ORANGE_500;
+
+  public static final String DEEP_ORANGE_50 = "#FBE9E7";
+  public static final String DEEP_ORANGE_100 = "#FFCCBC";
+  public static final String DEEP_ORANGE_200 = "#FFAB91";
+  public static final String DEEP_ORANGE_300 = "#FF8A65";
+  public static final String DEEP_ORANGE_400 = "#FF7043";
+  public static final String DEEP_ORANGE_500 = "#FF5722";
+  public static final String DEEP_ORANGE_600 = "#F4511E";
+  public static final String DEEP_ORANGE_700 = "#E64A19";
+  public static final String DEEP_ORANGE_800 = "#D84315";
+  public static final String DEEP_ORANGE_900 = "#BF360C";
+  public static final String DEEP_ORANGE_A100 = "#FF9E80";
+  public static final String DEEP_ORANGE_A200 = "#FF6E40";
+  public static final String DEEP_ORANGE_A400 = "#FF3D00";
+  public static final String DEEP_ORANGE_A700 = "#DD2C00";
+  public static final String DEEP_ORANGE = DEEP_ORANGE_500;
+
+  public static final String BROWN_50 = "#EFEBE9";
+  public static final String BROWN_100 = "#D7CCC8";
+  public static final String BROWN_200 = "#BCAAA4";
+  public static final String BROWN_300 = "#A1887F";
+  public static final String BROWN_400 = "#8D6E63";
+  public static final String BROWN_500 = "#795548";
+  public static final String BROWN_600 = "#6D4C41";
+  public static final String BROWN_700 = "#5D4037";
+  public static final String BROWN_800 = "#4E342E";
+  public static final String BROWN_900 = "#3E2723";
+  public static final String BROWN = BROWN_500;
+
+  public static final String GREY_50 = "#FAFAFA";
+  public static final String GREY_100 = "#F5F5F5";
+  public static final String GREY_200 = "#EEEEEE";
+  public static final String GREY_300 = "#E0E0E0";
+  public static final String GREY_400 = "#BDBDBD";
+  public static final String GREY_500 = "#9E9E9E";
+  public static final String GREY_600 = "#757575";
+  public static final String GREY_700 = "#616161";
+  public static final String GREY_800 = "#424242";
+  public static final String GREY_900 = "#212121";
+  public static final String GREY = GREY_500;
+
+  public static final String BLUE_GREY_50 = "#ECEFF1";
+  public static final String BLUE_GREY_100 = "#CFD8DC";
+  public static final String BLUE_GREY_200 = "#B0BEC5";
+  public static final String BLUE_GREY_300 = "#90A4AE";
+  public static final String BLUE_GREY_400 = "#78909C";
+  public static final String BLUE_GREY_500 = "#607D8B";
+  public static final String BLUE_GREY_600 = "#546E7A";
+  public static final String BLUE_GREY_700 = "#455A64";
+  public static final String BLUE_GREY_800 = "#37474F";
+  public static final String BLUE_GREY_900 = "#263238";
+  public static final String BLUE_GREY = BLUE_GREY_500;
+
+  public static final String BLACK = "#000000";
+  public static final String WHITE = "#FFFFFF";
+
+}
